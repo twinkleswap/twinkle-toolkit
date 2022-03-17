@@ -1,5 +1,5 @@
 {
-  "name": "PancakeSwap Extended",
+  "name": "TwinkleSwap Extended",
   "timestamp": "2022-03-14T09:47:16.403Z",
   "version": {
     "major": 2,
@@ -8,12 +8,12 @@
   },
   "logoURI": "https://pancakeswap.finance/logo.png",
   "keywords": [
-    "pancakeswap",
+    "twinkleswap",
     "extended"
   ],
   "tokens": [
     {
-      "name": "PancakeSwap Token",
+      "name": "TwinkleSwap Token",
       "symbol": "CAKE",
       "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
       "chainId": 56,

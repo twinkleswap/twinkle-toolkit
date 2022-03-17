@@ -1460,7 +1460,7 @@ exports[`renders correctly 1`] = `
             class="c3"
           >
             <a
-              aria-label="Pancake home page"
+              aria-label="Twinkle Home Page"
               class="c4"
               href="/"
             >

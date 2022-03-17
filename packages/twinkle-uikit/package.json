@@ -1,6 +1,6 @@
 {
   "name": "@twinkleswap/uikit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Set of UI components for twinkle projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -20,7 +20,8 @@
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
     "test": "jest",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "publish": "npm publish --access private"
   },
   "jest": {
     "setupFilesAfterEnv": [

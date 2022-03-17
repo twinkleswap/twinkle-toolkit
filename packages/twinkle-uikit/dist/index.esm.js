@@ -4947,7 +4947,7 @@ var Logo = function (_a) {
     var innerLogo = (React__default.createElement(React__default.Fragment, null,
         React__default.createElement(Icon$1j, { className: "mobile-icon" }),
         React__default.createElement(LogoWithTextIcon, { className: "desktop-icon", isDark: isDark })));
-    return (React__default.createElement(Flex, null, isAbsoluteUrl ? (React__default.createElement(StyledLink, { as: "a", href: href, "aria-label": "Pancake home page" }, innerLogo)) : (React__default.createElement(StyledLink, { href: href, as: linkComponent, "aria-label": "Pancake home page" }, innerLogo))));
+    return (React__default.createElement(Flex, null, isAbsoluteUrl ? (React__default.createElement(StyledLink, { as: "a", href: href, "aria-label": "Twinkle Home Page" }, innerLogo)) : (React__default.createElement(StyledLink, { href: href, as: linkComponent, "aria-label": "Twinkle Home Page" }, innerLogo))));
 };
 var Logo$1 = React__default.memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });
 var templateObject_1$7, templateObject_2$4;
