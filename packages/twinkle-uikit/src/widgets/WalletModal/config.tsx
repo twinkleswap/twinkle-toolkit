@@ -6,7 +6,7 @@ import TokenPocket from "../../components/Svg/Icons/TokenPocket";
 import BinanceChain from "../../components/Svg/Icons/BinanceChain";
 import SafePal from "../../components/Svg/Icons/SafePal";
 import Coin98 from "../../components/Svg/Icons/Coin98";
-import Blocto from "../../components/Svg/Icons/Blocto";
+// import Blocto from "../../components/Svg/Icons/Blocto";
 import CoinbaseWallet from "../../components/Svg/Icons/CoinbaseWallet";
 
 import { Config, ConnectorNames } from "./types";
@@ -43,12 +43,12 @@ const connectors: Config[] = [
     priority: 999,
   },
 
-  {
-    title: "Binance Chain",
-    icon: BinanceChain,
-    connectorId: ConnectorNames.BSC,
-    priority: 999,
-  },
+  // {
+  //   title: "Binance Chain",
+  //   icon: BinanceChain,
+  //   connectorId: ConnectorNames.BSC,
+  //   priority: 999,
+  // },
   {
     title: "SafePal",
     icon: SafePal,
@@ -61,18 +61,18 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.Injected,
     priority: 999,
   },
-  {
-    title: "Blocto",
-    icon: Blocto,
-    connectorId: ConnectorNames.Blocto,
-    priority: 999,
-  },
-  {
-    title: "Coinbase",
-    icon: CoinbaseWallet,
-    connectorId: ConnectorNames.WalletLink,
-    priority: 999,
-  },
+  // {
+  //   title: "Blocto",
+  //   icon: Blocto,
+  //   connectorId: ConnectorNames.Blocto,
+  //   priority: 999,
+  // },
+  // {
+  //   title: "Coinbase",
+  //   icon: CoinbaseWallet,
+  //   connectorId: ConnectorNames.WalletLink,
+  //   priority: 999,
+  // },
 ];
 
 export default connectors;
