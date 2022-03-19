@@ -1,6 +1,6 @@
 {
   "name": "@twinkleswap/uikit",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Set of UI components for twinkle projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -52,6 +52,6 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
