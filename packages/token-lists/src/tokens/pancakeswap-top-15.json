@@ -1,106 +1,74 @@
 [
   {
-    "name": "Bunny Token",
-    "symbol": "BUNNY",
-    "address": "0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51",
-    "chainId": 56,
+    "name": "Astar",
+    "address": "0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720",
+    "symbol": "WASTR",
     "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51/logo.png"
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720.png"
   },
   {
-    "name": "USD Coin",
+    "name": "Shiden",
+    "address": "0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4",
+    "symbol": "WSDN",
+    "decimals": 18,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x75364D4F779d0Bd0facD9a218c67f87dD9Aff3b4.png"
+  },
+  {
+    "name": "USDC",
+    "address": "0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98",
     "symbol": "USDC",
-    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d/logo.png"
+    "decimals": 6,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x6a2d262D56735DbA19Dd70682B39F6bE9a931D98.png"
   },
   {
-    "name": "AlpacaToken",
-    "symbol": "ALPACA",
-    "address": "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F/logo.png"
-  },
-  {
-    "name": "Venus",
-    "symbol": "XVS",
-    "address": "0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xcF6BB5389c92Bdda8a3747Ddb454cB7a64626C63/logo.png"
-  },
-  {
-    "name": "Polkadot Token",
-    "symbol": "DOT",
-    "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402/logo.png"
-  },
-  {
-    "name": "BELT Token",
-    "symbol": "BELT",
-    "address": "0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0xE0e514c71282b6f4e823703a39374Cf58dc3eA4f/logo.png"
-  },
-  {
-    "name": "Cardano Token",
-    "symbol": "ADA",
-    "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47/logo.png"
-  },
-  {
-    "name": "Wrapped UST Token",
-    "symbol": "UST",
-    "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x23396cF899Ca06c4472205fC903bDB4de249D6fC/logo.png"
-  },
-  {
-    "name": "MemePad",
-    "symbol": "MEPAD",
-    "address": "0x9d70a3EE3079A6FA2bB16591414678b7Ad91f0b5",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x9d70a3EE3079A6FA2bB16591414678b7Ad91f0b5/logo.png"
-  },
-  {
-    "name": "TRONPAD.network",
-    "symbol": "TRONPAD",
-    "address": "0x1Bf7AedeC439D6BFE38f8f9b20CF3dc99e3571C4",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1Bf7AedeC439D6BFE38f8f9b20CF3dc99e3571C4/logo.png"
-  },
-  {
-    "name": "VAI Stablecoin",
-    "symbol": "VAI",
-    "address": "0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7",
-    "chainId": 56,
-    "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x4BD17003473389A42DAF6a0a729f6Fdb328BbBd7/logo.png"
-  },
-  {
-    "name": "Dai Token",
+    "name": "DAI",
+    "address": "0x6De33698e9e9b787e09d3Bd7771ef63557E148bb",
     "symbol": "DAI",
-    "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
-    "chainId": 56,
     "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3/logo.png"
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x6De33698e9e9b787e09d3Bd7771ef63557E148bb.png"
   },
   {
-    "name": "XRP Token",
-    "symbol": "XRP",
-    "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
-    "chainId": 56,
+    "name": "ETH",
+    "address": "0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c",
+    "symbol": "ETH",
     "decimals": 18,
-    "logoURI": "https://assets.trustwalletapp.com/blockchains/smartchain/assets/0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE/logo.png"
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x81ECac0D6Be0550A00FF064a4f9dd2400585FE9c.png"
+  },
+  {
+    "name": "BTC",
+    "address": "0xad543f18cFf85c77E140E3E5E3c3392f6Ba9d5CA",
+    "symbol": "BTC",
+    "decimals": 18,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0xad543f18cFf85c77E140E3E5E3c3392f6Ba9d5CA.png"
+  },
+  {
+    "name": "MATIC",
+    "address": "0xdd90E5E87A2081Dcf0391920868eBc2FFB81a1aF",
+    "symbol": "MATIC",
+    "decimals": 18,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0xdd90E5E87A2081Dcf0391920868eBc2FFB81a1aF.png"
+  },
+  {
+    "name": "BNB",
+    "address": "0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52",
+    "symbol": "BNB",
+    "decimals": 18,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x7f27352D5F83Db87a5A3E00f4B07Cc2138D8ee52.png"
+  },
+  {
+    "name": "BUSD",
+    "address": "0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "chainId": 592,
+    "logoURI": "https://raw.githubusercontent.com/starbank-finance/assets/main/images/astar/0x4Bf769b05E832FCdc9053fFFBC78Ca889aCb5E1E.png"
   }
 ]
