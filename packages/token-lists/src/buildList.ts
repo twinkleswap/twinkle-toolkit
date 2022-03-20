@@ -1,20 +1,20 @@
 import fs from "fs";
 import path from "path";
 import { TokenList } from "@uniswap/token-lists";
-import { version as pancakeswapDefaultVersion } from "../lists/pancakeswap-default.json";
-import { version as pancakeswapExtendedVersion } from "../lists/pancakeswap-extended.json";
-import { version as pancakeswapTop15Version } from "../lists/pancakeswap-top-15.json";
-import { version as pancakeswapTop100Version } from "../lists/pancakeswap-top-100.json";
+import { version as twinkleswapDefaultVersion } from "../lists/twinkleswap-default.json";
+import { version as twinkleswapExtendedVersion } from "../lists/twinkleswap-extended.json";
+import { version as twinkleswapTop15Version } from "../lists/twinkleswap-top-15.json";
+import { version as twinkleswapTop100Version } from "../lists/twinkleswap-top-100.json";
 import { version as coingeckoVersion } from "../lists/coingecko.json";
-import { version as pancakeswapMiniVersion } from "../lists/pancakeswap-mini.json";
-import { version as pancakeswapMiniExtendedVersion } from "../lists/pancakeswap-mini-extended.json";
-import pancakeswapDefault from "./tokens/pancakeswap-default.json";
-import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
-import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
-import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
+import { version as twinkleswapMiniVersion } from "../lists/twinkleswap-mini.json";
+import { version as twinkleswapMiniExtendedVersion } from "../lists/twinkleswap-mini-extended.json";
+import twinkleswapDefault from "./tokens/twinkleswap-default.json";
+import twinkleswapExtended from "./tokens/twinkleswap-extended.json";
+import twinkleswapTop100 from "./tokens/twinkleswap-top-100.json";
+import twinkleswapTop15 from "./tokens/twinkleswap-top-15.json";
 import coingecko from './tokens/coingecko.json'
-import pancakeswapMini from "./tokens/pancakeswap-mini.json";
-import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import twinkleswapMini from "./tokens/twinkleswap-mini.json";
+import twinkleswapMiniExtended from "./tokens/twinkleswap-mini-extended.json";
 
 export enum VersionBump {
   "major" = "major",
@@ -29,37 +29,37 @@ type Version = {
 };
 
 const lists = {
-  "pancakeswap-default": {
-    list: pancakeswapDefault,
-    name: "PancakeSwap Default",
-    keywords: ["pancakeswap", "default"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-default": {
+    list: twinkleswapDefault,
+    name: "TwinkleSwap Default",
+    keywords: ["twinkleswap", "default"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: false,
-    currentVersion: pancakeswapDefaultVersion,
+    currentVersion: twinkleswapDefaultVersion,
   },
-  "pancakeswap-extended": {
-    list: pancakeswapExtended,
-    name: "PancakeSwap Extended",
-    keywords: ["pancakeswap", "extended"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-extended": {
+    list: twinkleswapExtended,
+    name: "TwinkleSwap Extended",
+    keywords: ["twinkleswap", "extended"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapExtendedVersion,
+    currentVersion: twinkleswapExtendedVersion,
   },
-  "pancakeswap-top-100": {
-    list: pancakeswapTop100,
-    name: "PancakeSwap Top 100",
-    keywords: ["pancakeswap", "top 100"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-top-100": {
+    list: twinkleswapTop100,
+    name: "TwinkleSwap Top 100",
+    keywords: ["twinkleswap", "top 100"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop100Version,
+    currentVersion: twinkleswapTop100Version,
   },
-  "pancakeswap-top-15": {
-    list: pancakeswapTop15,
-    name: "PancakeSwap Top 15",
-    keywords: ["pancakeswap", "top 15"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-top-15": {
+    list: twinkleswapTop15,
+    name: "TwinkleSwap Top 15",
+    keywords: ["twinkleswap", "top 15"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapTop15Version,
+    currentVersion: twinkleswapTop15Version,
   },
   "coingecko": {
     list: coingecko,
@@ -69,21 +69,21 @@ const lists = {
     sort: true,
     currentVersion: coingeckoVersion,
   },
-  "pancakeswap-mini": {
-    list: pancakeswapMini,
-    name: "PancakeSwap Mini",
-    keywords: ["pancakeswap", "binance", "mini program", "mini"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-mini": {
+    list: twinkleswapMini,
+    name: "TwinkleSwap Mini",
+    keywords: ["twinkleswap", "astar", "mini program", "mini"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniVersion,
+    currentVersion: twinkleswapMiniVersion,
   },
-  "pancakeswap-mini-extended": {
-    list: pancakeswapMiniExtended,
-    name: "PancakeSwap Mini Ext",
-    keywords: ["pancakeswap", "binance", "mini program", "mini", "extended"],
-    logoURI: "https://pancakeswap.finance/logo.png",
+  "twinkleswap-mini-extended": {
+    list: twinkleswapMiniExtended,
+    name: "TwinkleSwap Mini Ext",
+    keywords: ["twinkleswap", "astar", "mini program", "mini", "extended"],
+    logoURI: "https://twinkleswap.finance/logo.png",
     sort: true,
-    currentVersion: pancakeswapMiniExtendedVersion,
+    currentVersion: twinkleswapMiniExtendedVersion,
   },
 };
 

@@ -1,22 +1,22 @@
 import fs from "fs";
 import path from "path";
 import { getAddress } from "@ethersproject/address";
-import pancakeswapDefault from "./tokens/pancakeswap-default.json";
-import pancakeswapExtended from "./tokens/pancakeswap-extended.json";
-import pancakeswapTop100 from "./tokens/pancakeswap-top-100.json";
-import pancakeswapTop15 from "./tokens/pancakeswap-top-15.json";
+import twinkleswapDefault from "./tokens/twinkleswap-default.json";
+import twinkleswapExtended from "./tokens/twinkleswap-extended.json";
+import twinkleswapTop100 from "./tokens/twinkleswap-top-100.json";
+import twinkleswapTop15 from "./tokens/twinkleswap-top-15.json";
 import coingecko from "./tokens/coingecko.json";
-import pancakeswapMini from "./tokens/pancakeswap-mini.json";
-import pancakeswapMiniExtended from "./tokens/pancakeswap-mini-extended.json";
+import twinkleswapMini from "./tokens/twinkleswap-mini.json";
+import twinkleswapMiniExtended from "./tokens/twinkleswap-mini-extended.json";
 
 const lists = {
-  "pancakeswap-default": pancakeswapDefault,
-  "pancakeswap-extended": pancakeswapExtended,
-  "pancakeswap-top-100": pancakeswapTop100,
-  "pancakeswap-top-15": pancakeswapTop15,
+  "twinkleswap-default": twinkleswapDefault,
+  "twinkleswap-extended": twinkleswapExtended,
+  "twinkleswap-top-100": twinkleswapTop100,
+  "twinkleswap-top-15": twinkleswapTop15,
   "coingecko": coingecko,
-  "pancakeswap-mini": pancakeswapMini,
-  "pancakeswap-mini-extended": pancakeswapMiniExtended,
+  "twinkleswap-mini": twinkleswapMini,
+  "twinkleswap-mini-extended": twinkleswapMiniExtended,
 };
 
 const checksumAddresses = (listName: string): void => {
