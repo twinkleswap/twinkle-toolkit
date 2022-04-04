@@ -1,15 +1,6 @@
 {
-  "https://tokens.pancakeswap.finance/pancakeswap-default.json": {
+  "https://raw.githubusercontent.com/starbank-finance/assets/main/data/starbank-astar.tokenlist.json": {
     "name": "TwinkleSwap Default",
-    "homepage": "https://twinkleswap.finance"
-  },
-  "https://tokens.pancakeswap.finance/pancakeswap-extended.json": {
-    "name": "TwinkleSwap Extended",
-    "homepage": "https://twinkleswap.finance"
-    
-  },
-  "https://tokens.pancakeswap.finance/pancakeswap-top-100.json": {
-    "name": "TwinkleSwap Top 100",
     "homepage": "https://twinkleswap.finance"
   }
 }

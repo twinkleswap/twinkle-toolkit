@@ -17,7 +17,7 @@ URLs to external lists are stored in `token-lists.json`, if you want your list t
 Note - this is not something we expect pull requests for.  
 Unless you've been specifically asked by someone from PCS team please do no submit PRs to be listed on default PCS list. You can still trade your tokens on PCS exchange by pasting your address into the token field.
 
-- Add new tokens to `src/tokens/pancakeswap-extended.json` file
+- Add new tokens to `src/tokens/twinkleswap-extended.json` file
 - Run `yarn makelist:pcs-extended`
   - By default new list will have patch version number bumped by 1 (e.g. `2.0.1` -> `2.0.2`).
   - If you want to bump minor version add `minor` after makelist command `yarn makelist:pcs-extended minor`
