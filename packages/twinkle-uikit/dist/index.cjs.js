@@ -792,7 +792,7 @@ var Logo$2 = function (_a) {
         React__default['default'].createElement("path", { d: "M97.696 177.755c-41.118 0-86.372-22.235-86.443-51.018v.134c0 35.632 30.395 62.491 86.443 62.491s86.443-26.859 86.443-62.491v-.134c-.071 28.783-45.325 51.018-86.443 51.018z", fill: "#FEDC90" }),
         React__default['default'].createElement("path", { className: "eye", d: "M74.85 117.896c0 9.718-4.546 14.779-10.154 14.779s-10.154-5.061-10.154-14.779 4.546-14.779 10.154-14.779 10.154 5.061 10.154 14.779zM140.851 117.896c0 9.718-4.546 14.779-10.154 14.779s-10.154-5.061-10.154-14.779 4.546-14.779 10.154-14.779 10.154 5.061 10.154 14.779z", fill: "#633001" })));
 };
-var LogoWithTextIcon = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
+var LogoWithText = React__default['default'].memo(Logo$2, function (prev, next) { return prev.isDark === next.isDark; });
 
 var Icon$1g = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 40 40" }, props),
@@ -1563,7 +1563,7 @@ var IconModule = /*#__PURE__*/Object.freeze({
     LogoIcon: Icon$1j,
     LogoRoundIcon: Icon$1i,
     LogoutIcon: Icon$1h,
-    LogoWithTextIcon: LogoWithTextIcon,
+    LogoWithTextIcon: LogoWithText,
     MathWalletIcon: Icon$1g,
     MedalBronzeIcon: Icon$1f,
     MedalGoldIcon: Icon$1e,
@@ -4928,8 +4928,7 @@ var MenuItem = function (_a) {
     var items = _a.items, isDark = _a.isDark, toggleTheme = _a.toggleTheme, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, cakePriceUsd = _a.cakePriceUsd, buyCakeLabel = _a.buyCakeLabel, props = __rest(_a, ["items", "isDark", "toggleTheme", "currentLang", "langs", "setLang", "cakePriceUsd", "buyCakeLabel"]);
     return (React__default['default'].createElement(StyledFooter, __assign({ p: ["40px 16px", null, "56px 40px 32px 40px"] }, props, { justifyContent: "center" }),
         React__default['default'].createElement(Flex, { flexDirection: "column", width: ["100%", null, "1200px;"] },
-            React__default['default'].createElement(StyledIconMobileContainer, { display: ["block", null, "none"] },
-                React__default['default'].createElement(LogoWithTextIcon, { isDark: true, width: "130px" })),
+            React__default['default'].createElement(StyledIconMobileContainer, { display: ["block", null, "none"] }, "TwinkleSwap"),
             React__default['default'].createElement(Flex, { order: [2, null, 1], flexDirection: ["column", null, "row"], justifyContent: "space-between", alignItems: "flex-start", mb: ["42px", null, "36px"] }, items === null || items === void 0 ? void 0 :
                 items.map(function (item) {
                     var _a;
@@ -4940,8 +4939,7 @@ var MenuItem = function (_a) {
                             return (React__default['default'].createElement(StyledListItem, { key: label }, href ? (React__default['default'].createElement(Link, { href: href, target: "_blank", rel: "noreferrer noopener", color: isHighlighted ? baseColors.warning : darkColors.text, bold: false }, label)) : (React__default['default'].createElement(StyledText, null, label))));
                         })));
                 }),
-                React__default['default'].createElement(Box, { display: ["none", null, "block"] },
-                    React__default['default'].createElement(LogoWithTextIcon, { isDark: true, width: "160px" }))),
+                React__default['default'].createElement(Box, { display: ["none", null, "block"] }, "TwinkleSwap")),
             React__default['default'].createElement(StyledSocialLinks, { order: [2], pb: ["42px", null, "32px"], mb: ["0", null, "32px"] }),
             React__default['default'].createElement(StyledToolsContainer, { order: [1, null, 3], flexDirection: ["column", null, "row"], justifyContent: "space-between" },
                 React__default['default'].createElement(Flex, { order: [2, null, 1], alignItems: "center" },
@@ -4975,12 +4973,10 @@ var StyledLink = styled__default['default']("a")(templateObject_2$4 || (template
     return theme.mediaQueries.nav;
 }, blink);
 var Logo = function (_a) {
-    var isDark = _a.isDark, href = _a.href;
+    _a.isDark; var href = _a.href;
     var linkComponent = React.useContext(MenuContext).linkComponent;
     var isAbsoluteUrl = href.startsWith("http");
-    var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null,
-        React__default['default'].createElement(Icon$1j, { className: "mobile-icon" }),
-        React__default['default'].createElement(LogoWithTextIcon, { className: "desktop-icon", isDark: isDark })));
+    var innerLogo = (React__default['default'].createElement(React__default['default'].Fragment, null, "TwinkleSwap"));
     return (React__default['default'].createElement(Flex, null, isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Twinkle Home Page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { href: href, as: linkComponent, "aria-label": "Twinkle Home Page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });
@@ -5637,7 +5633,7 @@ exports.ListViewIcon = Icon$1l;
 exports.LoginIcon = Icon$1k;
 exports.LogoIcon = Icon$1j;
 exports.LogoRoundIcon = Icon$1i;
-exports.LogoWithTextIcon = LogoWithTextIcon;
+exports.LogoWithTextIcon = LogoWithText;
 exports.LogoutIcon = Icon$1h;
 exports.MathWalletIcon = Icon$1g;
 exports.MedalBronzeIcon = Icon$1f;

@@ -1,6 +1,6 @@
 {
   "name": "@twinkleswap/uikit",
-  "version": "0.0.10",
+  "version": "0.0.13",
   "description": "Set of UI components for twinkle projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
