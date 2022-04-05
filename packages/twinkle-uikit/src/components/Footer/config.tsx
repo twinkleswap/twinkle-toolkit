@@ -79,7 +79,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/TwinkeSwap",
+    href: "https://twitter.com/TwinkleSwap",
   },
   {
     label: "Telegram",
@@ -87,7 +87,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/TwinkeSwap",
+        href: "https://t.me/TwinkleSwap",
       },
       // {
       //   label: "Bahasa Indonesia",
